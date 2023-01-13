@@ -1,0 +1,54 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1673590212.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "userId",
+    "id",
+    "title",
+    "body"
+  ],
+  "properties": {
+    "userId": {
+      "$id": "#root/userId",
+      "title": "Userid",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "AAA"
+      ],
+      "pattern": "^.*$"
+    },
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "examples": [
+        101
+      ],
+      "default": 0
+    },
+    "title": {
+      "$id": "#root/title",
+      "title": "Title",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "!!! sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+      ],
+      "pattern": "^.*$"
+    },
+    "body": {
+      "$id": "#root/body",
+      "title": "Body",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
